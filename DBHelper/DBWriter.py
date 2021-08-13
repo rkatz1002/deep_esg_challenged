@@ -3,12 +3,14 @@ import pandas as pd
 import openpyxl
 import numpy as np
 
+from .BaseDBHelper import BaseDBHelper
 
-from GeneralLedgerDTO import GeneralLederDTO
-from ExcelUtil import ExcelUtil
+from DTO.GeneralLedgerDTO import GeneralLederDTO
+from utils.ExcelUtil import ExcelUtil
+
 import settings
 
-class DBWriter:
+class DBWriter(BaseDBHelper):
 
     excel_util = ExcelUtil()
 

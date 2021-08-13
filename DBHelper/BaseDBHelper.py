@@ -1,0 +1,2 @@
+class BaseDBHelper:
+    pass

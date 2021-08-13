@@ -1,10 +1,12 @@
 import pandas as pd
 import numpy as np
 
-from ExcelUtil import ExcelUtil
+from .BaseDBHelper import BaseDBHelper
+
+from utils.ExcelUtil import ExcelUtil
 import settings
 
-class DBReader:
+class DBReader(BaseDBHelper):
 
     excel_util = ExcelUtil()
 

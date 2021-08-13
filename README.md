@@ -1,5 +1,8 @@
 # DEEP ESG - Data Challenge - Solution
 
+#### Output file
+
+The output file will be chart_of_accounts itslef, yet we added a second column called "value", which needs to be wrriten in the excel file before the program starts.
 
 #### Idea Behind the Solution
 
@@ -55,7 +58,7 @@ For this, there will only be two tables needed - ChartOfAccounts and GeneralLedg
 * value (int)
 * already accounted for(bool)
 
-Notice that the table account number and value are redundant - but useful to update the speed of our program, since to get these value from the table GeneralLedgers is time consuming. 
+Notice that the table account number and value are redundant - but useful to update the speed of our program, since to get these value from the table GeneralLedgers is time consuming.
 
 The boolean already accounted for is useful to filter our table of GeneralLedgers if we ever want to update the table ChartOfAccounts.
 

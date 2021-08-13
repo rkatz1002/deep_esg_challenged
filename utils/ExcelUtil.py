@@ -5,7 +5,6 @@ import numpy as np
 
 import os
 
-from GeneralLedgerDTO import GeneralLederDTO
 from settings import *
 
 

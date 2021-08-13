@@ -1,9 +1,9 @@
 import tqdm as tqdm
 
-from GeneralLedgerDTO import GeneralLederDTO
+from DTO.GeneralLedgerDTO import GeneralLederDTO
 
-from DBWriter import DBWriter
-from DBReader import DBReader
+from DBHelper.DBWriter import DBWriter
+from DBHelper.DBReader import DBReader
 
 if __name__ == "__main__":
 
